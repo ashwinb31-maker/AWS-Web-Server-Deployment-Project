@@ -45,6 +45,7 @@ Port 80 (HTTP): To allow standard web browsing traffic
 
 
 Port 443 (HTTPS): To support secure web endpoints 
+
 NOTE:- Critical Configuration: To ensure the web server was accessible to the public, I manually updated the EC2 Security Group's inbound rules. I added a rule to allow traffic on Port 80 (HTTP) from any source (0.0.0.0/0), resolving initial connectivity issues.
 
 3. Remote Server Connection
